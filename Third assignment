@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <title>Main Website Title</title>
+    <link rel="stylesheet" href="" />
+</head>
+</body>	
+	<h1>Welcome Section</h1>
+		<ul>
+			<li><a href="css.html">Home</a></li>
+			<li><a href="css.html">About</a></li>
+			<li><a href="css.html">Contact</a></li>
+		</ul>
+	<h2>Welcome Section</h2>
+	
+		<p><b>Featured Content</b></p>
+	
+		<p>This is a sample paragraph with <b>bold</b> and <i>italic</i> text.</p>
+	
+	<h2>About Us</h2>
+	
+		<image src="ali.jpg">
+	<p>"An inspirational qoute about our mission."</p>
+	
+	<h2>Contact Information</h2>
+	
+	<form>
+		<label for="Name">Name:</label>
+		<input type="Name" id"name" name="name" required />
+		<br/>
+		<label for="email">Email:</label>
+		<input type="email" id"email" name="email" required />
+		<br/>
+		<label for="message">Message:</label>
+		<input type="message" id"message" name="message" required />
+		<br/>
+		<input type="button" value="send" onclick="alert("button checked!")>	
+	</form>
+	
+	<p><b>Related Links</b></p>
+		<ul>
+			<li><a href="css.html">Link 1</li>
+			<li><a href="css.html">Link 2</li>
+		</ul>
+	<footer>
+		<p>&copy; 2024 Your Company Name. All rights <br/> Reserved.</p>
+	</footer>
+		<p>Additional footer Information</p>
+	</body>
+	</html>
+	
+	
