@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design fundamentals</title>
+    <link rel="stylesheet" href="main.css" />
+	<style>
+	h1{
+	border-bottom: 2px solid red;
+	text-align: center;
+	font-size: 25px;
+	}
+	body{
+		border: 2px solid blue;
+		padding: 15px;
+		}
+	
+	</style>
+</head>
+<body>
+	<h1>Web Design Fundamentals</h1>
+	
+	<p style="background-color: lightblue; border-left: 3px solid blue; padding: 8px;"> Serif fonts, like times new roman, have small decorative lines at the ends of <br/> 
+	character strokes, these lines guide the eye and create a traditional, formal <br/> reading experience</p>
+	<p style="background-color: milk; border-right: 3px solid milk; padding: 8px;">Sans-serif fonts, such as Helvetica, lack those decorative lines. they offer a <br/> clean modern look that works well in digital environments </p>
+	
+	<h2>Box Model Demonstration</h2>
+	<p style="background-color: red; padding: 40px; font-size: 20px; margin-right: 15px; color: white;">Content Area<br/>300px wide</p>
+	
+	</body>
+	</html>
+	
+
+CSS PART
+
+h2 {
+			color: purple;
+			text-align: center;
+			border: 3px dashed purple;
+			}
+				
