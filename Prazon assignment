@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design & Development Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Praroz</div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Type To text">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="text-content">
+            <h1>Web Design & <br> Development Course</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque expedita atque eveniet quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus a quae totam ipsa illum minus laudantium?</p>
+            <button class="join-btn">JOIN US</button>
+        </div>
+        <div class="login-form">
+            <h2>Login Here</h2>
+            <form>
+                <input type="text" placeholder="Enter Username Here">
+                <input type="email" placeholder="Enter Email Here">
+                <input type="password" placeholder="Enter Password Here">
+                <input type="password" placeholder="Retype Password Here">
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#">Sign up here</a></p>
+            <div class="social-login">
+                <span>Log in with</span>
+                <div class="icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="google-icon.png" alt="Google"></a>
+                    <a href="#"><img src="skype-icon.png" alt="Skype"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: orange;
+    text-decoration: none;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login .icons img {
+    width: 30px;
+    margin: 5px;
+}
